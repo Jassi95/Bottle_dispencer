@@ -113,6 +113,7 @@ public class MainActivity extends AppCompatActivity {
         String s;
         s = machine.returnMoney();
         screen.setText(s);
+        mscreen.setText(machine.getMoney());
     }
 
     public void writeFile(View v){
